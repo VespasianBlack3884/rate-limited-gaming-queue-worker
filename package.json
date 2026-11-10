@@ -1,0 +1,17 @@
+{
+  "name": "worker-pool-gaming-typescript-m",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/queue_worker.ts",
+    "test": "node --experimental-strip-types src/queue_worker.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  }
+}
